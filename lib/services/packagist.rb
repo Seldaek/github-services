@@ -45,4 +45,3 @@ class Service::Packagist < Service
     @domain_parts ||= full_domain.split('://')
   end
 end
-

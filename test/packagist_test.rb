@@ -62,7 +62,7 @@ class PackagistTest < Service::TestCase
     assert_equal 'mojombo', svc.user
     assert_equal '5gieo7lwcd8gww800scs', svc.token
     assert_equal 'packagist.org', svc.domain
-    assert_equal 'http', svc.scheme
+    assert_equal 'https', svc.scheme
   end
 
   def test_detects_http_url
@@ -182,4 +182,3 @@ class PackagistTest < Service::TestCase
     }
   end
 end
-
